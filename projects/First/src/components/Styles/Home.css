@@ -1,0 +1,44 @@
+/* Home.css */
+#home {
+    
+    padding: 4rem 0;
+    text-align: center;
+    color: #FFFFFF; 
+  }
+  
+  .home-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    justify-content: space-around;
+  }
+  
+  #presentation {
+    font-size: 2.5rem;
+    text-align: center;
+    margin: 0;
+    max-width: 300px;
+    color: #007ACC; 
+    
+  }
+  
+  .ID {
+    font-size: inherit;
+    font-weight: bold;
+    color: #2bbdc2;
+    text-shadow: 0 0 20px #1fd7e4, 0 0 30px #42d4ee, 0 0 40px #000000;
+    animation: neon 1.5s ease-in-out infinite alternate;
+
+  }
+  
+  #Photo-profile {
+    max-width: 300px;
+    max-height: 300px;
+    border-radius:50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color:rgba(0, 51, 102, 0.9);
+    border: 1px solid white;
+  }

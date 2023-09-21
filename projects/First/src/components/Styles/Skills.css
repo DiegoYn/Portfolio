@@ -1,0 +1,41 @@
+.Abilities{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.SkillsTitle{
+    font-size: 7rem;
+    font-family: 'Roboto', sans-serif;
+    color: #FFFFFF;
+    text-shadow: 0 0 10px #1fd7e4, 0 0 20px #42d4ee, 0 0 40px #000000;
+    font-weight: lighter;
+    margin: 6rem;
+}
+.Abilities-content{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.Abilities-content img{
+    max-width: 400px;
+    max-height:400px ;
+
+}
+.Abilities-item p{
+    font-size: 1.5rem;
+    max-width: 400px;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: lighter;
+    transition: color 0.3s
+}
+.Abilities-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
